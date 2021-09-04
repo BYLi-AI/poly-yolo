@@ -1,0 +1,5 @@
+poly_yolo/train.txt
+poly_yolo/val.txt
+poly_yolo/models/*
+tpami_paper/*
+.idea

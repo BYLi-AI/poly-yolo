@@ -1,0 +1,12 @@
+30. 6. 2020
+The original PIL data augmentation replaced by OpenCV augmentation. 
+The main advantage is the processing speed. 
+OpenCV is much faster, so it removes the CPU bottleneck during training on larger batches.
+The new augmentation includes:
+- Random scaling. Images are bigger/smaller
+- Shifting. Image is placed on a different position
+- Jittering. Aspect ratio is slightly changed
+- CLAHE. Adaptive histogram equalization
+- HSV augmentation. Both additive and multiplicative versions
+- Flipping. Horizontal version
+- Noise. Random strength of noise based on the variance of the data
